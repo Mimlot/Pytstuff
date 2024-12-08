@@ -29,6 +29,10 @@ def hien_thi(nums):
     
     print(f"Số lượng số nguyên tố: {len(so_nguyen_to)}")
     print(f"Các số nguyên tố: {so_nguyen_to}")
-
-nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 17, 18, 19, 20]
+    
+n= int(input("Nhap so luong so : "))
+nums=[]
+for i in range(1,n):
+    num = int(input(f"Nhap so thu {i} : "))
+    nums.append(num)
 hien_thi(nums)

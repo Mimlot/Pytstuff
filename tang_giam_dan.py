@@ -9,6 +9,7 @@ def sap_xep_day(lua_chon,day_so):
     else:
         print("Lựa chọn không hợp lệ. Chỉ nhập 1 hoặc 2")
 
-day_so = list(map(int, input("Nhập dãy số nguyên, cách nhau bởi dấu cách: ").split()))
+day_so = (list(input("Nhap day: ")))
+
 lua_chon = int(input("Nhập '1' để sắp xếp tăng dần, '2' để sắp xếp giảm dần: "))
 sap_xep_day(lua_chon,day_so)

@@ -10,7 +10,7 @@ def chan(day):
 
 def main():
     while True:
-        day = input("Nhập chuỗi các ký tự (ít nhất 10 ký tự): ")
+        day = list(input("Nhập chuỗi các ký tự (ít nhất 10 ký tự): "))
         if len(day) >= 10: 
             break
         print("Vui lòng nhập ít nhất 10 số!")
